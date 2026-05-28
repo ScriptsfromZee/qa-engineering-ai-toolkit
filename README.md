@@ -94,7 +94,6 @@ Then paste the system prompt.
 ```text
 qa-toolkit/
 ├── prompts/
-├── examples/
 ├── assets/
 ├── README.md
 ├── CONTRIBUTING.md
