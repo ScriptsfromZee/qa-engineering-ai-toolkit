@@ -37,6 +37,10 @@ INPUT,  fill in all fields:
    - What must pass before this release ships
    - What is acceptable to defer with a documented risk
 
+   **CONFIDENCE SIGNAL**
+Rate your confidence in this output: [High / Medium / Low]
+State in one sentence what information, if provided, would most improve this output.
+
 **OPTIONAL MODIFIERS:** (add any to the end of your prompt to make it more specific to you/ your product):
 - "We have 4 hours(The time here is dependent on you or your company), give me the minimum viable regression set" 
 - "Output as a JIRA-ready checklist"

@@ -25,6 +25,10 @@ happy path case, negative/validation cases, edge case (boundary value or unexpec
 
 **OUTPUT FORMAT:** Clean, structured text. No markdown tables.
 
+**CONFIDENCE SIGNAL**
+Rate your confidence in this output: [High / Medium / Low]
+State in one sentence what information, if provided, would most improve this output.
+
 **OPTIONAL MODIFIERS** (add any to the end of your prompt to make it more specific to you/your product):
 - "Focus only on negative cases"
 - "Assume automated execution — write steps for Selenium/Cypress"

@@ -32,3 +32,7 @@ FORMAT: Specify [SLACK COMMENT / EMAIL / TICKET COMMENT] before
 generating.
 
 **DO NOT:** Apologise for raising the bug, use accusatory language or make assumptions about intent.
+
+**CONFIDENCE SIGNAL**
+Rate your confidence in this output: [High / Medium / Low]
+State in one sentence what information, if provided, would most improve this output.
