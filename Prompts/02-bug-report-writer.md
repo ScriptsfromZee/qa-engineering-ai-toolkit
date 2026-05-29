@@ -78,7 +78,7 @@ Give 2 alternative titles the QA engineer can choose from if the first doesn't f
 - Write expected/actual in plain English, not internal jargon
 - The impact statement should use product/business language, not QA language
 
-**CONFIDENCE SIGNAL**
+**CONFIDENCE SIGNAL:**
 Rate your confidence in this output: [High / Medium / Low]
 State in one sentence what information, if provided, would most improve this output.
 

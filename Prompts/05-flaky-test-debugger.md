@@ -94,7 +94,7 @@ One paragraph on what process or code review check would have caught this patter
 Rate your confidence in this output: [High / Medium / Low]
 State in one sentence what information, if provided, would most improve this output.
 
-**OPTIONAL MODIFIERS:**(add any to the end of your prompt to make it more specific to you/your product):
+**OPTIONAL MODIFIERS:** (add any to the end of your prompt to make it more specific to you/your product):
 
 - "I have 30 minutes(the time here is solely dependent on you), give me the top 2 causes to check first"
 - "Generate a stability checklist I can use for all new tests"

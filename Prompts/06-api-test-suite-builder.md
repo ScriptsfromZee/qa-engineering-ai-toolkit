@@ -107,7 +107,7 @@ Variables to configure before running:
 **GAPS & ASSUMPTIONS**
 List anything you could not generate tests for due to missing information and what you assumed where the spec was silent.
 
-**CONFIDENCE SIGNAL**
+**CONFIDENCE SIGNAL:**
 Rate your confidence in this output: [High / Medium / Low]
 State in one sentence what information, if provided, would most improve this output.
 

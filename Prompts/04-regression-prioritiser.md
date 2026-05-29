@@ -43,7 +43,7 @@ INPUT, fill in all fields:
    - What must pass before this release ships
    - What is acceptable to defer with a documented risk
 
-   **CONFIDENCE SIGNAL**
+   **CONFIDENCE SIGNAL:**
    Rate your confidence in this output: [High / Medium / Low]
    State in one sentence what information, if provided, would most improve this output.
 

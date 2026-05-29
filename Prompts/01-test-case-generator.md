@@ -26,7 +26,7 @@ happy path case, negative/validation cases, edge case (boundary value or unexpec
 
 **OUTPUT FORMAT:** Clean, structured text. No markdown tables or CSV format. Use a comma to separate each field.One test case per row. First row must be the column headers. // This depends on what you want.
 
-**CONFIDENCE SIGNAL**
+**CONFIDENCE SIGNAL:**
 Rate your confidence in this output: [High / Medium / Low]
 State in one sentence what information, if provided, would most improve this output.
 
