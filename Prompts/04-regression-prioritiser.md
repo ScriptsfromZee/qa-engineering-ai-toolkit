@@ -28,7 +28,11 @@ INPUT,  fill in all fields:
    - Specific scenarios to re-run (3–5 bullet points)
 
 3. **SAFE TO DEPRIORITISE**
-   - List features unlikely to be affected with a one-line reason each
+   A feature is only safe to deprioritise if ALL three are true:
+- It has no shared code, database table or service with the changed area
+- It has not been modified in the last two sprints
+- It has stable automated coverage with no recent failures
+List each deprioritised feature with the specific reason it meets all three criteria.
 
 4. **RECOMMENDED EXECUTION ORDER**
    - Numbered list from highest to lowest risk
@@ -45,4 +49,5 @@ State in one sentence what information, if provided, would most improve this out
 - "We have 4 hours(The time here is dependent on you or your company), give me the minimum viable regression set" 
 - "Output as a JIRA-ready checklist"
 - "Flag which cases are automation candidates"
+- "Explain your reasoning for each deprioritised item in two sentences"
 

@@ -18,6 +18,8 @@ INPUT — fill in all fields:
 - Business Context: [What does this endpoint do in plain English? What are the business rules?]
 - Known Constraints: [Rate limits / Idempotency requirements / Required headers / Any known quirks]
 
+Before writing any test cases, state the endpoint contract in full.Do not proceed to test cases until the contract summary is complete and any ambiguities are flagged.
+
 **TASK:** Generate a complete API test suite for the provided endpoint(s). Structure your output as follows:
 
 **API TEST SUITE**

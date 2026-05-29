@@ -22,6 +22,8 @@ INPUT — fill in all fields:
   (GitHub Actions, Jenkins, CircleCI) /Headless or headed browser / Parallel execution: Yes or No]
 - Has It Ever Passed Consistently: [Yes, it was stable before /No, it's been flaky since it was written / Unknown]
 
+Before writing your diagnosis, silently work through all six cause categories. Only begin the FLAKY TEST DIAGNOSIS REPORT after you have considered every category.
+
 **TASK:** Diagnose the flaky test and produce a structured debugging report with the following sections:
 
 **FLAKY TEST DIAGNOSIS REPORT**
