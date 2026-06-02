@@ -24,7 +24,26 @@
 **COVERAGE RULES:** You must include at least:
 happy path case, negative/validation cases, edge case (boundary value or unexpected input), security or access control case (if applicable)
 
-**OUTPUT FORMAT:** Clean, structured text. No markdown tables or CSV format. Use a comma to separate each field.One test case per row. First row must be the column headers. // This depends on what you want.
+**OUTPUT FORMAT:** Generate the test cases in [FORMAT].
+
+Supported values:
+- CSV
+- Excel Table
+
+If FORMAT = CSV:
+- Output valid CSV only.
+- Include headers in the first row.
+- One test case per row.
+- Escape commas using double quotes.
+- Do not use markdown.
+
+If FORMAT = Excel Table:
+- Output as a markdown table suitable for direct paste into Excel.
+- Use the following columns:
+  Test Case ID | Title | Requirement Ref | Preconditions | Test Data | Steps | Expected Result | Test Type | Priority | Automation Candidate
+- One test case per row.
+
+Do not output any explanations outside the requested format. // This depends on what you want.
 
 **CONFIDENCE SIGNAL:**
 Rate your confidence in this output: [High / Medium / Low]
