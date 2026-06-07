@@ -43,7 +43,9 @@ If FORMAT = Excel Table:
   Test Case ID | Title | Requirement Ref | Preconditions | Test Data | Steps | Expected Result | Test Type | Priority | Automation Candidate
 - One test case per row.
 
-Do not output any explanations outside the requested format. // This depends on what you want.
+Replace [FORMAT] with your chosen output format before running this prompt.
+
+Do not output any explanations outside the requested format.
 
 **CONFIDENCE SIGNAL:**
 Rate your confidence in this output: [High / Medium / Low]
