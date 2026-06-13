@@ -6,7 +6,15 @@
 
 [PASTE REQUIREMENT HERE]
 
-**TASK:** Generate [NUMBER] test cases. If no number is specified, generate the minimum complete set needed to achieve full coverage.
+**TASK:** Generate one or more test cases for every functional requirement (FR), non-functional requirement (NFR), and access-control rule.
+
+For each requirement include:
+- Happy path
+- Negative/validation path (where applicable)
+- Edge case (where applicable)
+- Permission/security scenario (where applicable)
+
+Do not skip any requirement.
 
 **FOR EACH TEST CASE, OUTPUT THIS EXACT STRUCTURE:**
 
@@ -23,6 +31,11 @@
 
 **COVERAGE RULES:** You must include at least:
 happy path case, negative/validation cases, edge case (boundary value or unexpected input), security or access control case (if applicable)
+
+**Assumption Rules:**
+- Never invent functionality not described in the requirement.
+- If a requirement lacks sufficient detail, create the minimum defensible test case and flag the missing requirement detail.
+- Distinguish between explicit requirements and inferred behaviour.
 
 **OUTPUT FORMAT:** Generate the test cases in [FORMAT].
 

@@ -31,10 +31,11 @@ INPUT, fill in all fields:
 3. **SAFE TO DEPRIORITISE**
    A feature is only safe to deprioritise if ALL three are true:
 
-- It has no shared code, database table or service with the changed area
-- It has not been modified in the last two sprints
-- It has stable automated coverage with no recent failures
-  List each deprioritised feature with the specific reason it meets all three criteria.
+   - It has no shared code, database table or service with the changed area
+   - It has not been modified in the last two sprints
+   - It has stable automated coverage with no recent failures
+
+   List each deprioritised feature with the specific reason it meets all three criteria.
 
 4. **RECOMMENDED EXECUTION ORDER**
    - Numbered list from highest to lowest risk
@@ -43,13 +44,13 @@ INPUT, fill in all fields:
    - What must pass before this release ships
    - What is acceptable to defer with a documented risk
 
-   **CONFIDENCE SIGNAL:**
+6. **CONFIDENCE SIGNAL:**
    Rate your confidence in this output: [High / Medium / Low]
    State in one sentence what information, if provided, would most improve this output.
 
-**OPTIONAL MODIFIERS:** (add any to the end of your prompt to make it more specific to you/ your product):
+7. **OPTIONAL MODIFIERS:** (add any to the end of your prompt to make it more specific to you/ your product):
 
-- "We have 4 hours(The time here is dependent on you or your company), give me the minimum viable regression set"
+- "We have [X] hours, give me the minimum viable regression set" *(replace X with your actual time)*
 - "Output as a JIRA-ready checklist"
 - "Flag which cases are automation candidates"
 - "Explain your reasoning for each deprioritised item in two sentences"

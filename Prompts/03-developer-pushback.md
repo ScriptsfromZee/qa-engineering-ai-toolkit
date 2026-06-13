@@ -5,8 +5,7 @@
 INPUT — fill in all fields:
 
 - Bug Title: [SHORT TITLE]
-- Bug Description: [EXACTLY what you reported…symptoms, steps,
-  Environment must be included]
+- Bug Description: [EXACTLY what you reported…symptoms, steps,environment must be included]
 - Developer's Closure Reason: [PASTE DEVELOPER'S EXACT COMMENT here]
 - Closure Type: [Intended Behaviour / Cannot Reproduce / Not a Bug / Duplicate]
 - Your Evidence: [Screenshots / logs / screen recording / test data. Describe what you have, as most LLMs do not accept video uploads]
@@ -27,9 +26,10 @@ INPUT — fill in all fields:
 - If Audience = Junior Dev: Peer-level, collaborative, no hierarchy
 - If Audience = Tech Lead / Senior: Technical depth, reference patterns or standards
 - If Audience = CTO: Business and risk framing, minimal tech jargon
+- If Audience is not specified, default to Senior Engineer tone.
 
-LENGTH: 120–180 words for Slack/comment. 250–350 words for email.
-FORMAT: Specify [SLACK COMMENT / EMAIL / TICKET COMMENT] before generating.
+**LENGTH:** 120–180 words for Slack/comment. 250–350 words for email.
+**FORMAT:** Specify [SLACK COMMENT / EMAIL / TICKET COMMENT] before generating.
 
 **DO NOT:** Apologise for raising the bug, use accusatory language or make assumptions about intent.
 

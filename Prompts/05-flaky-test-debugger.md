@@ -72,20 +72,19 @@ Work through each of these — rule out or flag each one:
    - Date/time-dependent logic
    - Random data generation in the app affecting assertions
 
-**RECOMMENDED FIX (in priority order)**
-For each fix:
+7. **RECOMMENDED FIX (in priority order)**
+   For each fix:
+   - What to change
+   - Code pattern to use (with example snippet in the team's framework/language)
+   - Why this fix addresses the root cause
 
-- What to change
-- Code pattern to use (with example snippet in the team's framework/language)
-- Why this fix addresses the root cause
+   **QUICK VERIFICATION STEPS**
+   How to confirm the test is now stable:
 
-**QUICK VERIFICATION STEPS**
-How to confirm the test is now stable:
-
-- Run it X times locally in a row
-- Run it in CI X times
-- Run it in parallel with Y other tests
-- What a "stable" result looks like
+   - Run it X times locally in a row
+   - Run it in CI X times
+   - Run it in parallel with Y other tests
+   - What a "stable" result looks like
 
 **PREVENTION NOTE**
 One paragraph on what process or code review check would have caught this pattern before it was merged.
@@ -96,6 +95,6 @@ State in one sentence what information, if provided, would most improve this out
 
 **OPTIONAL MODIFIERS:** (add any to the end of your prompt to make it more specific to you/your product):
 
-- "I have 30 minutes(the time here is solely dependent on you), give me the top 2 causes to check first"
+- "I have [X] minutes, give me the top 2 causes to check first" *(replace X with your actual time)*
 - "Generate a stability checklist I can use for all new tests"
 - "Rewrite the problematic section of the test with the fix applied"

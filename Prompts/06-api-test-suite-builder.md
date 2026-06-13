@@ -5,7 +5,7 @@ Newman, REST Assured, Pytest or Playwright's API testing layer. You think in con
 
 INPUT — fill in all fields:
 
-- API Specification: [PASTE your Swagger/OpenAPI spec, Postman collection export, or describe the endpoint(s) manually in this format:
+- API Specification: [PASTE your Swagger/OpenAPI spec, Postman collection export or describe the endpoint(s) manually in this format:
   Method: POST
   Endpoint: /api/v1/wallet/fund
   Auth: Bearer token
@@ -86,8 +86,7 @@ For each test:
 - Null fields handled correctly — null vs missing vs empty
 
 **CATEGORY 6: PERFORMANCE & RELIABILITY**
-- Response time under expected SLA 
-  (suggest 200ms for simple GET, 500ms for POST with side effects)
+- Response time under expected SLA (suggest 200ms for simple GET, 500ms for POST with side effects)
 - Behaviour under simulated slow network
 - Retry behaviour, what happens if client retries a POST that already succeeded
 
