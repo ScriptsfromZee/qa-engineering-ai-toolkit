@@ -17,8 +17,6 @@ The goal is simple:
 
 Reduce time spent on repetitive documentation so QA Engineers can focus on actual testing.
 
----
-
 # What's Inside
 
 ## Included Prompt Systems
@@ -41,19 +39,13 @@ Diagnose unstable automated tests systematically.
 ### 6. API Test Suite Builder
 Generate structured API test suites for REST and GraphQL systems.
 
----
-
 # Supported Platforms
-
 These prompts work with:
-
 - ChatGPT
 - Claude
 - Gemini
 - Grok
 - Any LLM that supports custom/system prompts
-
----
 
 # How To Use
 
@@ -67,15 +59,11 @@ Paste the system prompt into:
 
 "How should ChatGPT respond?"
 
----
-
 ## Option 2 — Claude Projects
 
 Create a new project and paste the system prompt into:
 
 Project Instructions
-
----
 
 ## Option 3 — Any Other LLM
 
@@ -87,10 +75,7 @@ For this session, follow these instructions:
 
 Then paste the system prompt.
 
----
-
 # Repository Structure
-
 ```text
 qa-toolkit/
 ├── prompts/
@@ -100,10 +85,7 @@ qa-toolkit/
 └── LICENSE
 ```
 
----
-
 # Contributing
-
 Contributions are welcome.
 
 If you've:
@@ -119,26 +101,14 @@ Please open:
 
 Read CONTRIBUTING.md before submitting.
 
----
-
 # License
-
 This project is licensed under the MIT License.
 
----
-
 # Author
-
-Derek Chizogam
-
+- Derek Chizogam
 - Email: derekchizogam@gmail.com
 - LinkedIn:http://www.linkedin.com/in/chizogamderek. This is currently restricted
 - GitHub: ScriptsfromZee
 
----
-
 # Why Open Source This?
-
-Because good QA engineers waste too much time rewriting the same documentation over and over.
-
-This toolkit exists to reduce that friction.
+Because good QA engineers waste too much time rewriting the same documentation over and over.This toolkit exists to reduce that friction.
